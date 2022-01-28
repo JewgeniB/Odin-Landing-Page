@@ -1,0 +1,155 @@
+* {
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+.headerImg {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    margin: 32px;
+}
+
+.headerLinks {
+    display: flex;
+    gap: 16px;
+    margin: 64px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+h2, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.mainSec {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 64px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.button1 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border-style: none;
+    padding: 4px;
+}
+
+.infohead {
+    color: #1f2937;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    margin: 32px;
+}
+
+.secondSec {
+    padding: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 128px;
+    margin: 52px;
+}
+
+.miniFlexContainer {
+    max-width: 15%;
+}
+
+.secondSecImg {
+    width: 90%;
+    height: 50%;
+}
+
+.secondSecText {
+    font-weight: bold;
+}
+
+.thirdSec {
+    background-color: #E5E7EB;
+    padding 256px;
+}
+
+.tbtText {
+    display: flex;
+    padding: 64px;
+    font-style: italic;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1f2937;
+    align-items: center;
+    justify-content: center;
+}
+
+.quoteName {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: right;
+    margin: 32px;
+    padding: 32px;
+}
+
+.fourthSec {
+    margin: 64px;
+    padding: 204px;
+    display: flex;
+    justify-content: center;
+}
+
+.CTA {
+    background-color: #F9FAF8;
+    margin: 32px;
+    padding: 40px;
+    display: flex;
+    gap: 64px;
+    border-radius: 8px;
+}
+
+.CTAText {
+    display: flex;
+    flex-direction: column;
+}
+
+.CTAButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 {
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    background-color: #1f2937;
+    color: #E5E7EB;
+}
